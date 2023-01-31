@@ -14,7 +14,7 @@ function Home() {
           blanditiis ea eius, modi minus deserunt delectus asperiores facere
           illo.
         </p>
-        <Link to="/menu">
+        <Link to="/eshop">
           <button>Purchase</button>
         </Link>
       </div>

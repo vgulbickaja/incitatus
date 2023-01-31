@@ -19,14 +19,14 @@ function Navbar() {
         <img src={horse} />
         <div className="hiddenLinks">
           <Link to="/"> Home </Link>
-          <Link to="/main"> Main </Link>
+          <Link to="/eshop"> E-shop </Link>
           <Link to="/about"> About </Link>
           <Link to="/contact"> Contact </Link>
         </div>
       </div>
       <div className="rightSide">
         <Link to="/"> Home </Link>
-        <Link to="/main"> Main </Link>
+        <Link to="/eshop"> E-Shop </Link>
         <Link to="/about"> About </Link>
         <Link to="/contact"> Contact </Link>
         <button onClick={toggleNavbar}>
