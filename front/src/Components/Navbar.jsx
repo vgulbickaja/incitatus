@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import "../Styles/Navbar.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { ShoppingCart } from "phosphor-react";
 import { useState } from "react";
 
 function Navbar() {
@@ -19,16 +20,20 @@ function Navbar() {
         <img src={horse} />
         <div className="hiddenLinks">
           <Link to="/"> Home </Link>
-          <Link to="/eshop"> E-shop </Link>
+          <Link to="/shop"> Shop </Link>
           <Link to="/about"> About </Link>
           <Link to="/contact"> Contact </Link>
+          <Link to="/cart"> Cart </Link>
         </div>
       </div>
       <div className="rightSide">
         <Link to="/"> Home </Link>
-        <Link to="/eshop"> E-Shop </Link>
+        <Link to="/shop"> Shop </Link>
         <Link to="/about"> About </Link>
         <Link to="/contact"> Contact </Link>
+        <Link to="/cart">
+          <ShoppingCart size={32} />
+        </Link>
         <button onClick={toggleNavbar}>
           <FontAwesomeIcon icon={faBars} />
         </button>

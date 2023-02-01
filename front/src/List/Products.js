@@ -5,41 +5,41 @@ import product4 from "../Assets/saddle4.jpg";
 import product5 from "../Assets/saddle5.jpg";
 import product6 from "../Assets/saddle6.jpg";
 
-export const EshopList = [
+export const PRODUCTS = [
   {
     id: 1,
-    name: "saddle1",
+    productName: "saddle1",
     price: 55000.0,
-    image: product1,
+    productImage: product1,
   },
   {
     id: 2,
-    name: "saddle2",
+    productName: "saddle2",
     price: 25000.0,
-    image: product2,
+    productImage: product2,
   },
   {
     id: 3,
-    name: "saddle3",
+    productName: "saddle3",
     price: 65000.0,
-    image: product3,
+    productImage: product3,
   },
   {
     id: 4,
-    name: "saddle4",
+    productName: "saddle4",
     price: 10000.0,
-    image: product4,
+    productImage: product4,
   },
   {
     id: 5,
-    name: "saddle5",
+    productName: "saddle5",
     price: 22000.0,
-    image: product5,
+    productImage: product5,
   },
   {
     id: 6,
-    name: "saddle6",
+    productName: "saddle6",
     price: 25000.0,
-    image: product6,
+    productImage: product6,
   },
 ];
