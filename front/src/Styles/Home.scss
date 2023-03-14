@@ -22,7 +22,7 @@
   font-size: 90px;
   height: 60px;
   font-weight: 50;
-  color: black;
+  color: white;
 }
 
 .headerContainer p {
@@ -57,9 +57,6 @@
     justify-content: center;
     align-items: center;
   }
-  .headerContainer h1,
-  .headerContainer p {
-  }
 
   .headerContainer {
     margin-left: 0px;
@@ -83,6 +80,7 @@
   .headerContainer p {
     font-size: 30px;
     color: white;
+    // margin-top: 10px;
   }
 
   .headerContainer button {
